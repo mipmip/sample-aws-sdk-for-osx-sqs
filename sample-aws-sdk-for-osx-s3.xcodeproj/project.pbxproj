@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC7FA621C99992200713232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7FA611C99992200713232 /* AppDelegate.m */; };
+		3EC7FA651C99992200713232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7FA641C99992200713232 /* main.m */; };
+		3EC7FA671C99992200713232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7FA661C99992200713232 /* Assets.xcassets */; };
+		3EC7FA6A1C99992200713232 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7FA681C99992200713232 /* MainMenu.xib */; };
+		ED1B0E62B77F794722C04177 /* libPods-sample-aws-sdk-for-osx-s3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D433E8C448A5560AFF02E8 /* libPods-sample-aws-sdk-for-osx-s3.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EC7FA5D1C99992200713232 /* sample-aws-sdk-for-osx-s3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-aws-sdk-for-osx-s3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC7FA601C99992200713232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EC7FA611C99992200713232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EC7FA641C99992200713232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EC7FA661C99992200713232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EC7FA691C99992200713232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3EC7FA6B1C99992200713232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4568AD1B7B150B10FD71063A /* Pods-sample-aws-sdk-for-osx-s3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-aws-sdk-for-osx-s3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-s3/Pods-sample-aws-sdk-for-osx-s3.debug.xcconfig"; sourceTree = "<group>"; };
+		CC7C76C732EE9447A2051F82 /* Pods-sample-aws-sdk-for-osx-s3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-aws-sdk-for-osx-s3.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-s3/Pods-sample-aws-sdk-for-osx-s3.release.xcconfig"; sourceTree = "<group>"; };
+		E2D433E8C448A5560AFF02E8 /* libPods-sample-aws-sdk-for-osx-s3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample-aws-sdk-for-osx-s3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EC7FA5A1C99992200713232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1B0E62B77F794722C04177 /* libPods-sample-aws-sdk-for-osx-s3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EC7FA541C99992200713232 = {
+			isa = PBXGroup;
+			children = (
+				3EC7FA5F1C99992200713232 /* sample-aws-sdk-for-osx-s3 */,
+				3EC7FA5E1C99992200713232 /* Products */,
+				F909E09EDED7BB755DA6A3D4 /* Pods */,
+				69A9B7F10C82FDE9A25C06EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EC7FA5E1C99992200713232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7FA5D1C99992200713232 /* sample-aws-sdk-for-osx-s3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EC7FA5F1C99992200713232 /* sample-aws-sdk-for-osx-s3 */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7FA601C99992200713232 /* AppDelegate.h */,
+				3EC7FA611C99992200713232 /* AppDelegate.m */,
+				3EC7FA661C99992200713232 /* Assets.xcassets */,
+				3EC7FA681C99992200713232 /* MainMenu.xib */,
+				3EC7FA6B1C99992200713232 /* Info.plist */,
+				3EC7FA631C99992200713232 /* Supporting Files */,
+			);
+			path = "sample-aws-sdk-for-osx-s3";
+			sourceTree = "<group>";
+		};
+		3EC7FA631C99992200713232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC7FA641C99992200713232 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69A9B7F10C82FDE9A25C06EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2D433E8C448A5560AFF02E8 /* libPods-sample-aws-sdk-for-osx-s3.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F909E09EDED7BB755DA6A3D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4568AD1B7B150B10FD71063A /* Pods-sample-aws-sdk-for-osx-s3.debug.xcconfig */,
+				CC7C76C732EE9447A2051F82 /* Pods-sample-aws-sdk-for-osx-s3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EC7FA5C1C99992200713232 /* sample-aws-sdk-for-osx-s3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC7FA6E1C99992200713232 /* Build configuration list for PBXNativeTarget "sample-aws-sdk-for-osx-s3" */;
+			buildPhases = (
+				BB2AB45434E73A9D85FD7B4E /* Check Pods Manifest.lock */,
+				3EC7FA591C99992200713232 /* Sources */,
+				3EC7FA5A1C99992200713232 /* Frameworks */,
+				3EC7FA5B1C99992200713232 /* Resources */,
+				B833FF83D5811CEE8D88F7B5 /* Embed Pods Frameworks */,
+				B3F85F11E1A3632E2EB200FA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sample-aws-sdk-for-osx-s3";
+			productName = "sample-aws-sdk-for-osx-s3";
+			productReference = 3EC7FA5D1C99992200713232 /* sample-aws-sdk-for-osx-s3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EC7FA551C99992200713232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lingewoud;
+				TargetAttributes = {
+					3EC7FA5C1C99992200713232 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3EC7FA581C99992200713232 /* Build configuration list for PBXProject "sample-aws-sdk-for-osx-s3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EC7FA541C99992200713232;
+			productRefGroup = 3EC7FA5E1C99992200713232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EC7FA5C1C99992200713232 /* sample-aws-sdk-for-osx-s3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EC7FA5B1C99992200713232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC7FA671C99992200713232 /* Assets.xcassets in Resources */,
+				3EC7FA6A1C99992200713232 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3F85F11E1A3632E2EB200FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-s3/Pods-sample-aws-sdk-for-osx-s3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B833FF83D5811CEE8D88F7B5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-s3/Pods-sample-aws-sdk-for-osx-s3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2AB45434E73A9D85FD7B4E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EC7FA591C99992200713232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC7FA651C99992200713232 /* main.m in Sources */,
+				3EC7FA621C99992200713232 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EC7FA681C99992200713232 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EC7FA691C99992200713232 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EC7FA6C1C99992200713232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3EC7FA6D1C99992200713232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3EC7FA6F1C99992200713232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4568AD1B7B150B10FD71063A /* Pods-sample-aws-sdk-for-osx-s3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "sample-aws-sdk-for-osx-s3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingewoud.sample-aws-sdk-for-osx-s3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EC7FA701C99992200713232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7C76C732EE9447A2051F82 /* Pods-sample-aws-sdk-for-osx-s3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "sample-aws-sdk-for-osx-s3/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingewoud.sample-aws-sdk-for-osx-s3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EC7FA581C99992200713232 /* Build configuration list for PBXProject "sample-aws-sdk-for-osx-s3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC7FA6C1C99992200713232 /* Debug */,
+				3EC7FA6D1C99992200713232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC7FA6E1C99992200713232 /* Build configuration list for PBXNativeTarget "sample-aws-sdk-for-osx-s3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC7FA6F1C99992200713232 /* Debug */,
+				3EC7FA701C99992200713232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EC7FA551C99992200713232 /* Project object */;
+}
