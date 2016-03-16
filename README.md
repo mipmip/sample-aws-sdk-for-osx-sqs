@@ -1,10 +1,10 @@
 # Sample AWS SDK FOR OSX S3
-
 This sample app demonstrates how to integrate a fork of the official AWS
-SDK (v2) to OSX. It's minimal just to show you how to start.
+SDK (v2) ported to OSX. It's very minimal just to show you how to start.
+
+This sample demonstrates the AWS SDK found at https://github.com/mipmip/aws-sdk-ios
 
 ## Usage
-
 Replace these constants in AppDelegate:
 
 ```objective-c
@@ -21,6 +21,11 @@ Building:
 
 That's it. Read the official AWSiOS SDK Reference for all information.
 
+## Links
+- [Official AWS iOS-only SDK](https://github.com/aws/aws-sdk-ios)
+- [AWS SDK fork for OSX](https://github.com/mipmip/aws-sdk-ios)
+
+## Credits
 Sponsored by [Lingewoud](http://www.lingewoud.com)
 Sponsored by [MunsterMade](http://www.munstermade.com)
 Sponsored by [Kaftmeister](http://www.kaftmeister.com)
