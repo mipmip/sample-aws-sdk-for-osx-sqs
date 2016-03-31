@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>sample-aws-sdk-for-osx-s3.xcscheme</key>
+		<key>sample-aws-sdk-for-osx-sqs.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
