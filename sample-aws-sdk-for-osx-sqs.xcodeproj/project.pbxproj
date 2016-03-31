@@ -11,20 +11,20 @@
 		3EC7FA651C99992200713232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7FA641C99992200713232 /* main.m */; };
 		3EC7FA671C99992200713232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7FA661C99992200713232 /* Assets.xcassets */; };
 		3EC7FA6A1C99992200713232 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7FA681C99992200713232 /* MainMenu.xib */; };
-		ED1B0E62B77F794722C04177 /* libPods-sample-aws-sdk-for-osx-s3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D433E8C448A5560AFF02E8 /* libPods-sample-aws-sdk-for-osx-s3.a */; };
+		49C756D36EC634E229DB5815 /* libPods-sample-aws-sdk-for-osx-sqs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FB4FC9A87A641F12110B27 /* libPods-sample-aws-sdk-for-osx-sqs.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3EC7FA5D1C99992200713232 /* sample-aws-sdk-for-osx-s3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-aws-sdk-for-osx-s3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2813BB54A78C8159B8339075 /* Pods-sample-aws-sdk-for-osx-sqs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-aws-sdk-for-osx-sqs.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-sqs/Pods-sample-aws-sdk-for-osx-sqs.release.xcconfig"; sourceTree = "<group>"; };
+		3EC7FA5D1C99992200713232 /* sample-aws-sdk-for-osx-sqs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-aws-sdk-for-osx-sqs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC7FA601C99992200713232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EC7FA611C99992200713232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3EC7FA641C99992200713232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3EC7FA661C99992200713232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC7FA691C99992200713232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3EC7FA6B1C99992200713232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4568AD1B7B150B10FD71063A /* Pods-sample-aws-sdk-for-osx-s3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-aws-sdk-for-osx-s3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-s3/Pods-sample-aws-sdk-for-osx-s3.debug.xcconfig"; sourceTree = "<group>"; };
-		CC7C76C732EE9447A2051F82 /* Pods-sample-aws-sdk-for-osx-s3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-aws-sdk-for-osx-s3.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-s3/Pods-sample-aws-sdk-for-osx-s3.release.xcconfig"; sourceTree = "<group>"; };
-		E2D433E8C448A5560AFF02E8 /* libPods-sample-aws-sdk-for-osx-s3.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample-aws-sdk-for-osx-s3.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FB4FC9A87A641F12110B27 /* libPods-sample-aws-sdk-for-osx-sqs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample-aws-sdk-for-osx-sqs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73F5EEFAD071A0149FD6E52 /* Pods-sample-aws-sdk-for-osx-sqs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-aws-sdk-for-osx-sqs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-sqs/Pods-sample-aws-sdk-for-osx-sqs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,32 +32,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED1B0E62B77F794722C04177 /* libPods-sample-aws-sdk-for-osx-s3.a in Frameworks */,
+				49C756D36EC634E229DB5815 /* libPods-sample-aws-sdk-for-osx-sqs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04146C4214375347F2D733B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6FB4FC9A87A641F12110B27 /* libPods-sample-aws-sdk-for-osx-sqs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3EC7FA541C99992200713232 = {
 			isa = PBXGroup;
 			children = (
-				3EC7FA5F1C99992200713232 /* sample-aws-sdk-for-osx-s3 */,
+				3EC7FA5F1C99992200713232 /* sample-aws-sdk-for-osx-sqs */,
 				3EC7FA5E1C99992200713232 /* Products */,
-				F909E09EDED7BB755DA6A3D4 /* Pods */,
-				69A9B7F10C82FDE9A25C06EB /* Frameworks */,
+				576BCD811CE5E941D7361D43 /* Pods */,
+				04146C4214375347F2D733B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		3EC7FA5E1C99992200713232 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3EC7FA5D1C99992200713232 /* sample-aws-sdk-for-osx-s3.app */,
+				3EC7FA5D1C99992200713232 /* sample-aws-sdk-for-osx-sqs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3EC7FA5F1C99992200713232 /* sample-aws-sdk-for-osx-s3 */ = {
+		3EC7FA5F1C99992200713232 /* sample-aws-sdk-for-osx-sqs */ = {
 			isa = PBXGroup;
 			children = (
 				3EC7FA601C99992200713232 /* AppDelegate.h */,
@@ -67,7 +75,7 @@
 				3EC7FA6B1C99992200713232 /* Info.plist */,
 				3EC7FA631C99992200713232 /* Supporting Files */,
 			);
-			path = "sample-aws-sdk-for-osx-s3";
+			path = "sample-aws-sdk-for-osx-sqs";
 			sourceTree = "<group>";
 		};
 		3EC7FA631C99992200713232 /* Supporting Files */ = {
@@ -78,19 +86,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		69A9B7F10C82FDE9A25C06EB /* Frameworks */ = {
+		576BCD811CE5E941D7361D43 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E2D433E8C448A5560AFF02E8 /* libPods-sample-aws-sdk-for-osx-s3.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F909E09EDED7BB755DA6A3D4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4568AD1B7B150B10FD71063A /* Pods-sample-aws-sdk-for-osx-s3.debug.xcconfig */,
-				CC7C76C732EE9447A2051F82 /* Pods-sample-aws-sdk-for-osx-s3.release.xcconfig */,
+				E73F5EEFAD071A0149FD6E52 /* Pods-sample-aws-sdk-for-osx-sqs.debug.xcconfig */,
+				2813BB54A78C8159B8339075 /* Pods-sample-aws-sdk-for-osx-sqs.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3EC7FA5C1C99992200713232 /* sample-aws-sdk-for-osx-s3 */ = {
+		3EC7FA5C1C99992200713232 /* sample-aws-sdk-for-osx-sqs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3EC7FA6E1C99992200713232 /* Build configuration list for PBXNativeTarget "sample-aws-sdk-for-osx-s3" */;
+			buildConfigurationList = 3EC7FA6E1C99992200713232 /* Build configuration list for PBXNativeTarget "sample-aws-sdk-for-osx-sqs" */;
 			buildPhases = (
 				BB2AB45434E73A9D85FD7B4E /* Check Pods Manifest.lock */,
 				3EC7FA591C99992200713232 /* Sources */,
@@ -113,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = "sample-aws-sdk-for-osx-s3";
+			name = "sample-aws-sdk-for-osx-sqs";
 			productName = "sample-aws-sdk-for-osx-s3";
-			productReference = 3EC7FA5D1C99992200713232 /* sample-aws-sdk-for-osx-s3.app */;
+			productReference = 3EC7FA5D1C99992200713232 /* sample-aws-sdk-for-osx-sqs.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3EC7FA581C99992200713232 /* Build configuration list for PBXProject "sample-aws-sdk-for-osx-s3" */;
+			buildConfigurationList = 3EC7FA581C99992200713232 /* Build configuration list for PBXProject "sample-aws-sdk-for-osx-sqs" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3EC7FA5C1C99992200713232 /* sample-aws-sdk-for-osx-s3 */,
+				3EC7FA5C1C99992200713232 /* sample-aws-sdk-for-osx-sqs */,
 			);
 		};
 /* End PBXProject section */
@@ -175,7 +175,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-s3/Pods-sample-aws-sdk-for-osx-s3-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-sqs/Pods-sample-aws-sdk-for-osx-sqs-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B833FF83D5811CEE8D88F7B5 /* Embed Pods Frameworks */ = {
@@ -190,7 +190,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-s3/Pods-sample-aws-sdk-for-osx-s3-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-sqs/Pods-sample-aws-sdk-for-osx-sqs-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BB2AB45434E73A9D85FD7B4E /* Check Pods Manifest.lock */ = {
@@ -315,34 +315,34 @@
 		};
 		3EC7FA6F1C99992200713232 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4568AD1B7B150B10FD71063A /* Pods-sample-aws-sdk-for-osx-s3.debug.xcconfig */;
+			baseConfigurationReference = E73F5EEFAD071A0149FD6E52 /* Pods-sample-aws-sdk-for-osx-sqs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "sample-aws-sdk-for-osx-s3/Info.plist";
+				INFOPLIST_FILE = "sample-aws-sdk-for-osx-sqs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lingewoud.sample-aws-sdk-for-osx-s3";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingewoud.sample-aws-sdk-for-osx-sqs";
+				PRODUCT_NAME = "sample-aws-sdk-for-osx-sqs";
 			};
 			name = Debug;
 		};
 		3EC7FA701C99992200713232 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC7C76C732EE9447A2051F82 /* Pods-sample-aws-sdk-for-osx-s3.release.xcconfig */;
+			baseConfigurationReference = 2813BB54A78C8159B8339075 /* Pods-sample-aws-sdk-for-osx-sqs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "sample-aws-sdk-for-osx-s3/Info.plist";
+				INFOPLIST_FILE = "sample-aws-sdk-for-osx-sqs/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lingewoud.sample-aws-sdk-for-osx-s3";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lingewoud.sample-aws-sdk-for-osx-sqs";
+				PRODUCT_NAME = "sample-aws-sdk-for-osx-sqs";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3EC7FA581C99992200713232 /* Build configuration list for PBXProject "sample-aws-sdk-for-osx-s3" */ = {
+		3EC7FA581C99992200713232 /* Build configuration list for PBXProject "sample-aws-sdk-for-osx-sqs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EC7FA6C1C99992200713232 /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3EC7FA6E1C99992200713232 /* Build configuration list for PBXNativeTarget "sample-aws-sdk-for-osx-s3" */ = {
+		3EC7FA6E1C99992200713232 /* Build configuration list for PBXNativeTarget "sample-aws-sdk-for-osx-sqs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3EC7FA6F1C99992200713232 /* Debug */,

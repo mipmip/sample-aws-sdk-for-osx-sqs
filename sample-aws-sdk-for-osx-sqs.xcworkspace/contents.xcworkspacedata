@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:sample-aws-sdk-for-osx-s3.xcodeproj">
+      location = "group:sample-aws-sdk-for-osx-sqs.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

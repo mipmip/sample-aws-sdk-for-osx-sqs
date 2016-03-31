@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3EC7FA5C1C99992200713232"
-               BuildableName = "sample-aws-sdk-for-osx-s3.app"
-               BlueprintName = "sample-aws-sdk-for-osx-s3"
-               ReferencedContainer = "container:sample-aws-sdk-for-osx-s3.xcodeproj">
+               BuildableName = "sample-aws-sdk-for-osx-sqs.app"
+               BlueprintName = "sample-aws-sdk-for-osx-sqs"
+               ReferencedContainer = "container:sample-aws-sdk-for-osx-sqs.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3EC7FA5C1C99992200713232"
-            BuildableName = "sample-aws-sdk-for-osx-s3.app"
-            BlueprintName = "sample-aws-sdk-for-osx-s3"
-            ReferencedContainer = "container:sample-aws-sdk-for-osx-s3.xcodeproj">
+            BuildableName = "sample-aws-sdk-for-osx-sqs.app"
+            BlueprintName = "sample-aws-sdk-for-osx-sqs"
+            ReferencedContainer = "container:sample-aws-sdk-for-osx-sqs.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3EC7FA5C1C99992200713232"
-            BuildableName = "sample-aws-sdk-for-osx-s3.app"
-            BlueprintName = "sample-aws-sdk-for-osx-s3"
-            ReferencedContainer = "container:sample-aws-sdk-for-osx-s3.xcodeproj">
+            BuildableName = "sample-aws-sdk-for-osx-sqs.app"
+            BlueprintName = "sample-aws-sdk-for-osx-sqs"
+            ReferencedContainer = "container:sample-aws-sdk-for-osx-sqs.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3EC7FA5C1C99992200713232"
-            BuildableName = "sample-aws-sdk-for-osx-s3.app"
-            BlueprintName = "sample-aws-sdk-for-osx-s3"
-            ReferencedContainer = "container:sample-aws-sdk-for-osx-s3.xcodeproj">
+            BuildableName = "sample-aws-sdk-for-osx-sqs.app"
+            BlueprintName = "sample-aws-sdk-for-osx-sqs"
+            ReferencedContainer = "container:sample-aws-sdk-for-osx-sqs.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:sample-aws-sdk-for-osx-s3.xcodeproj">
+      location = "self:/Users/pim/RnD/AWS/sample-aws-sdk-for-osx-sqs/sample-aws-sdk-for-osx-sqs.xcodeproj">
    </FileRef>
 </Workspace>
