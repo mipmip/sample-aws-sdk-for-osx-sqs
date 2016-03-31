@@ -7,9 +7,13 @@ This sample demonstrates the AWS SDK found at https://github.com/mipmip/aws-sdk-
 ## Usage
 Replace these constants in AppDelegate:
 
-```objective-c
-NSString *const CognitoPoolId = @"CongnitoPoolId";
+create a file in the root of the project named cognitopoolid.txt with the CognitoPoolId you want
+to use.
+
+```bash
+echo "region:string" > cognitopoolid.txt
 ```
+
 I use region EU-West1. You propably want to replace all region codes to
 some other region. Search and replace ```AWSRegionEUWest1```
 

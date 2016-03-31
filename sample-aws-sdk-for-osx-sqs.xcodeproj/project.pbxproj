@@ -11,6 +11,7 @@
 		3EC7FA651C99992200713232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7FA641C99992200713232 /* main.m */; };
 		3EC7FA671C99992200713232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7FA661C99992200713232 /* Assets.xcassets */; };
 		3EC7FA6A1C99992200713232 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7FA681C99992200713232 /* MainMenu.xib */; };
+		3EF7B54D1CADCD2E00AF3E71 /* cognitopoolid.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3EF7B54C1CADCD2E00AF3E71 /* cognitopoolid.txt */; };
 		49C756D36EC634E229DB5815 /* libPods-sample-aws-sdk-for-osx-sqs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FB4FC9A87A641F12110B27 /* libPods-sample-aws-sdk-for-osx-sqs.a */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		3EC7FA661C99992200713232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC7FA691C99992200713232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3EC7FA6B1C99992200713232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF7B54C1CADCD2E00AF3E71 /* cognitopoolid.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cognitopoolid.txt; path = ../cognitopoolid.txt; sourceTree = "<group>"; };
 		D6FB4FC9A87A641F12110B27 /* libPods-sample-aws-sdk-for-osx-sqs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sample-aws-sdk-for-osx-sqs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73F5EEFAD071A0149FD6E52 /* Pods-sample-aws-sdk-for-osx-sqs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-aws-sdk-for-osx-sqs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-aws-sdk-for-osx-sqs/Pods-sample-aws-sdk-for-osx-sqs.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +70,7 @@
 		3EC7FA5F1C99992200713232 /* sample-aws-sdk-for-osx-sqs */ = {
 			isa = PBXGroup;
 			children = (
+				3EF7B54C1CADCD2E00AF3E71 /* cognitopoolid.txt */,
 				3EC7FA601C99992200713232 /* AppDelegate.h */,
 				3EC7FA611C99992200713232 /* AppDelegate.m */,
 				3EC7FA661C99992200713232 /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 			files = (
 				3EC7FA671C99992200713232 /* Assets.xcassets in Resources */,
 				3EC7FA6A1C99992200713232 /* MainMenu.xib in Resources */,
+				3EF7B54D1CADCD2E00AF3E71 /* cognitopoolid.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

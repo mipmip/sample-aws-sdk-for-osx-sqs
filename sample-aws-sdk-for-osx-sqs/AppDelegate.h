@@ -9,7 +9,8 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-
+-(IBAction) fill:(id) sender;
+-(IBAction) poll:(id) sender;
 
 @end
 
